@@ -1,41 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fun Facts about Conjoined Twins</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
 
-<header>
-  <h1>Fun Facts About Conjoined Twins</h1>
-  <p>Learn some amazing facts!</p>
-</header>
-
-<nav>
-  <a href="index.html">Home</a>
-</nav>
-
-<section id="fun-facts">
-  <div class="fact-box">🎉 Conjoined twins occur in about 1 in every 50,000 to 200,000 births!</div>
-  <div class="fact-box">👩‍👩 About 70% of conjoined twins are female!</div>
-  <div class="fact-box">❤️ Some conjoined twins share organs, but not always!</div>
-  <div class="fact-box">🌎 Cases are more frequently reported in Southwest Asia and Africa.</div>
-</section>
-
-<footer>
-  <p>Created for Biology Class | Project by [Your Name]</p>
-</footer>
-
-</body>
-</html>
-```
-
----
-
-**style.css**
-```css
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
@@ -105,30 +68,8 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
 }
-#quiz {
-  padding: 2rem;
-  background: #f1f8e9;
-  margin: 2rem auto;
-  max-width: 800px;
-  border-radius: 10px;
-}
-.quiz-question {
-  margin-bottom: 2rem;
-}
-.quiz-question button {
-  display: block;
-  margin: 0.5rem 0;
-  padding: 0.5rem;
-  width: 200px;
-  background: #00acc1;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-.quiz-question button:hover {
-  background: #007c91;
-}
+
+
 .image-gallery {
   display: flex;
   flex-wrap: wrap;
@@ -154,20 +95,4 @@ footer {
   background: #e0f7fa;
   margin: 0;
 }
-#fun-facts {
-  padding: 2rem;
-  max-width: 800px;
-  margin: auto;
-}
-.fact-box {
-  background: #b2ebf2;
-  margin: 1rem 0;
-  padding: 1rem;
-  border-radius: 10px;
-  font-size: 1.2rem;
-  transition: background 0.3s;
-  cursor: pointer;
-}
-.fact-box:hover {
-  background: #80deea;
-}
+
